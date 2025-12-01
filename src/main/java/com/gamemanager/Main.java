@@ -1,16 +1,16 @@
 package com.gamemanager;
 
+import com.gamemanager.gui.GameManagerGUI;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("  Starting Game Manager...");
+        System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "off");
 
-        /*
-        testes
-        GameService gameService = new GameService();
-        gameService.showMainMenu();
-        */
+        System.out.println("Starting Game Manager...");
+        System.out.println("API: RAWG.io");
+        System.out.println("Initializing GUI...");
 
-        com.gamemanager.GameManagerGUI.main(args);
+        GameManagerGUI.main(args);
 
     }
 }
