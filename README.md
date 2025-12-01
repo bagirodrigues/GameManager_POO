@@ -66,7 +66,7 @@ https://rawg.io/apidocs
 
 ### Opção 1: Terminal
 1. Baixe ou clone o projeto
-`git clone https://github.com/bagirodrigues/GameManager`
+`git clone [https://github.com/bagirodrigues/GameManager]`
 `cd GameManagerPOO`
 
 2. Compile
