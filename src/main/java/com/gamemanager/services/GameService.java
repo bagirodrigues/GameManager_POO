@@ -13,7 +13,7 @@ public class GameService {
 
     public GameService() {
         this.dbManager = new DatabaseManager();
-        this.apiService = new ApiService("d934e04617454fdbafa6494bcfb3548c"); //apiKey chave pessoal, para facilitar o trabalho deixei ela no código, mas a recomendação é criar a prórpria, pro motivos de segurança.
+        this.apiService = new ApiService("SUA_CHAVE_API"); //Substitua para a sua chave da API, acesse rawg.io
         this.scanner = new Scanner(System.in);
         initializeDatabase();
     }
