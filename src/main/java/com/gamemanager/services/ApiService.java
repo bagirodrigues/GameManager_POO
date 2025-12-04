@@ -14,7 +14,7 @@ public class ApiService {
 
     public ApiService(String apiKey) {
         this.httpClient = new OkHttpClient();
-        this.apiKey = "d934e04617454fdbafa6494bcfb3548c"; //apiKey chave pessoal, para facilitar o trabalho deixei ela no código, mas a recomendação é criar a prórpria, pro motivos de segurança.
+        this.apiKey = "SUA_CHAVE_API"; //A apiKey é uma chave pessoal, substitua para a sua própria chave da API, acesse rawg.io
     }
 
     public Game searchGame(String gameName) {
